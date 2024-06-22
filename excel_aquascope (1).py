@@ -42,7 +42,7 @@ print(data_list)
 del site_list[0]
 print(site_list)
 
-genai.configure(api_key='AIzaSyDZamT2QUy1I7QPapdV75BgnbzkDmBcSHY')
+genai.configure(api_key='API Key')
 # genai.configure(api_key='AIzaSyAaOvo4JvUR-PHpn1w_tnsRomzBvYCWsv8')
 
 def prompt_all(context, measurements, image):
